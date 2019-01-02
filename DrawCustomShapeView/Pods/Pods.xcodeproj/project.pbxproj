@@ -7,13 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0D35C45252513AAE0CD2046BD8139212 /* Draw-Custom-Shape-View-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A5CE214677646B27EDD529FCDFB062E /* Draw-Custom-Shape-View-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		24ED6396E00A951105DC6682ACA58E50 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
+		1775CF483B22D0DF04645EADDF338F9A /* Draw-Custom-Shape-View-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7591E976A2A447C19F752FF63C4B47A9 /* Draw-Custom-Shape-View-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		38A6281AC7E47567C58263F3571FEF26 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
 		7D2042BCB89431E347467FB876B3D385 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
 		8E52E1B70AFAD8872D0E36EB4A8FCE5A /* Pods-DrawCustomShapeView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 206F72965D892ECACB9BC6F12F1CC43C /* Pods-DrawCustomShapeView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A16A25C5FAF1A34C509B02B8FEADEA18 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF52734D7B63F8F6DA108CEE31467C6 /* Service.swift */; };
+		BBDA25689976BAD24655495C97F13572 /* ShapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D0DD4B03216B4F927104B6EA1B66021 /* ShapView.swift */; };
 		DE1FEBBF0DA6A5F71EC32B5C04A02AD5 /* Pods-DrawCustomShapeView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F3BC01F894865A33F1CF70BD97B30606 /* Pods-DrawCustomShapeView-dummy.m */; };
-		E41AA365A68DF79D935F94D39C61C630 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = E274CD087847C067EB4C3DA2063EBC25 /* Service.swift */; };
-		EA495D9A2AA8F918C16E28360A904FC0 /* Draw-Custom-Shape-View-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C91189125810449EDAA9992642A13CFC /* Draw-Custom-Shape-View-dummy.m */; };
+		E8ADD4283B3502B80A83FF9087FB9E5E /* Draw-Custom-Shape-View-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CF58621EA2EF396E99BBCB8260964A0 /* Draw-Custom-Shape-View-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -21,33 +22,34 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 48C80632035C7E4504493231D555A523;
+			remoteGlobalIDString = 373F970E31BB68D5666F7529512FA4DC;
 			remoteInfo = "Draw-Custom-Shape-View";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		09CA5EFD81A2C47D192465EBB6BCBCBF /* Pods-DrawCustomShapeView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DrawCustomShapeView.release.xcconfig"; sourceTree = "<group>"; };
+		0CF58621EA2EF396E99BBCB8260964A0 /* Draw-Custom-Shape-View-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Draw-Custom-Shape-View-dummy.m"; sourceTree = "<group>"; };
 		147F4335D25399ED1C5276FE09BBB137 /* Pods-DrawCustomShapeView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DrawCustomShapeView.debug.xcconfig"; sourceTree = "<group>"; };
 		206F72965D892ECACB9BC6F12F1CC43C /* Pods-DrawCustomShapeView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DrawCustomShapeView-umbrella.h"; sourceTree = "<group>"; };
-		3740F67579446227D37F3FE1CC9DA6FB /* Draw-Custom-Shape-View.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = "Draw-Custom-Shape-View.podspec"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		42D3E9D626D9C19565EB5C6252FFD046 /* Draw_Custom_Shape_View.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Draw_Custom_Shape_View.framework; path = "Draw-Custom-Shape-View.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4FC44D2B0FE7A7CA7A7723BB129EBBE5 /* Draw-Custom-Shape-View-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Draw-Custom-Shape-View-prefix.pch"; sourceTree = "<group>"; };
-		571429DABEC0562769EA0565FE0744A3 /* Draw-Custom-Shape-View.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Draw-Custom-Shape-View.modulemap"; sourceTree = "<group>"; };
+		4D0DD4B03216B4F927104B6EA1B66021 /* ShapView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ShapView.swift; path = "Draw-Custom-Shape-View/ShapView.swift"; sourceTree = "<group>"; };
 		5FBE4BE15C5140550978BB6455AAC230 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		756B6F8366B4B06DE797F62D2C2AD43A /* Pods_DrawCustomShapeView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DrawCustomShapeView.framework; path = "Pods-DrawCustomShapeView.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7591E976A2A447C19F752FF63C4B47A9 /* Draw-Custom-Shape-View-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Draw-Custom-Shape-View-umbrella.h"; sourceTree = "<group>"; };
 		7B4931CCF325C26D56084C1A2472765A /* Pods-DrawCustomShapeView-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DrawCustomShapeView-frameworks.sh"; sourceTree = "<group>"; };
 		8252D826F1B395EFF19946F8E854944C /* Pods-DrawCustomShapeView-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DrawCustomShapeView-acknowledgements.markdown"; sourceTree = "<group>"; };
-		8A5CE214677646B27EDD529FCDFB062E /* Draw-Custom-Shape-View-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Draw-Custom-Shape-View-umbrella.h"; sourceTree = "<group>"; };
 		8BAF4E60BEC7F6964E5F4DAE098565A6 /* Pods-DrawCustomShapeView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DrawCustomShapeView.modulemap"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9D4B53BFA3EF964881743106E677B5C2 /* Pods-DrawCustomShapeView-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DrawCustomShapeView-resources.sh"; sourceTree = "<group>"; };
-		A66105BF3385EFE71AE82F56E16F228D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C91189125810449EDAA9992642A13CFC /* Draw-Custom-Shape-View-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Draw-Custom-Shape-View-dummy.m"; sourceTree = "<group>"; };
+		A17CE7C83D7C1B10C127BFC34158652A /* Draw-Custom-Shape-View.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = "Draw-Custom-Shape-View.podspec"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AD4F04C7CB0ADB2573E3F5C3CC65CAB8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BEF52734D7B63F8F6DA108CEE31467C6 /* Service.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Service.swift; path = "Draw-Custom-Shape-View/Service.swift"; sourceTree = "<group>"; };
+		D5BE8692B7D5F034CE7175691DDD6505 /* Draw-Custom-Shape-View-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Draw-Custom-Shape-View-prefix.pch"; sourceTree = "<group>"; };
 		D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		E274CD087847C067EB4C3DA2063EBC25 /* Service.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Service.swift; path = "Draw-Custom-Shape-View/Service.swift"; sourceTree = "<group>"; };
-		F343BFDB39EA42D81A135A8243D6C422 /* Draw-Custom-Shape-View.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Draw-Custom-Shape-View.xcconfig"; sourceTree = "<group>"; };
+		DFD92B9371BF0CFEBC2BF038A674DA21 /* Draw-Custom-Shape-View.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Draw-Custom-Shape-View.modulemap"; sourceTree = "<group>"; };
 		F3BC01F894865A33F1CF70BD97B30606 /* Pods-DrawCustomShapeView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DrawCustomShapeView-dummy.m"; sourceTree = "<group>"; };
+		FB74133D3CC03F68CF06178FA9D3B210 /* Draw-Custom-Shape-View.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Draw-Custom-Shape-View.xcconfig"; sourceTree = "<group>"; };
 		FE3C184D0E6C24ADEEE7851472BC4635 /* Pods-DrawCustomShapeView-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DrawCustomShapeView-acknowledgements.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -60,29 +62,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		78B22B1271DCBB3C1363DB48CCFA6ADC /* Frameworks */ = {
+		D420F0C8653707AB76CE6A5F96C319BB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				24ED6396E00A951105DC6682ACA58E50 /* Foundation.framework in Frameworks */,
+				38A6281AC7E47567C58263F3571FEF26 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		357C56C050482FBBC116E22B7C3B5215 /* Support Files */ = {
+		1C7902341A34BEB5C7EDCA97AC3CEC92 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				571429DABEC0562769EA0565FE0744A3 /* Draw-Custom-Shape-View.modulemap */,
-				F343BFDB39EA42D81A135A8243D6C422 /* Draw-Custom-Shape-View.xcconfig */,
-				C91189125810449EDAA9992642A13CFC /* Draw-Custom-Shape-View-dummy.m */,
-				4FC44D2B0FE7A7CA7A7723BB129EBBE5 /* Draw-Custom-Shape-View-prefix.pch */,
-				8A5CE214677646B27EDD529FCDFB062E /* Draw-Custom-Shape-View-umbrella.h */,
-				A66105BF3385EFE71AE82F56E16F228D /* Info.plist */,
+				A17CE7C83D7C1B10C127BFC34158652A /* Draw-Custom-Shape-View.podspec */,
 			);
-			name = "Support Files";
-			path = "../DrawCustomShapeView/Pods/Target Support Files/Draw-Custom-Shape-View";
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		44D5347904CF754D6785B84253F2574A /* iOS */ = {
@@ -93,34 +89,37 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		64955AAB83DD4161A2BDC9F2E850CC93 /* Pod */ = {
+		7CBC7A1549BB449D909EB32E19A333A4 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				3740F67579446227D37F3FE1CC9DA6FB /* Draw-Custom-Shape-View.podspec */,
+				F88B017D771D86DAE705132FE834FACF /* Draw-Custom-Shape-View */,
 			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		7992AFD9CE5C162E0DDEC7D80CE59844 /* Draw-Custom-Shape-View */ = {
-			isa = PBXGroup;
-			children = (
-				E274CD087847C067EB4C3DA2063EBC25 /* Service.swift */,
-				64955AAB83DD4161A2BDC9F2E850CC93 /* Pod */,
-				357C56C050482FBBC116E22B7C3B5215 /* Support Files */,
-			);
-			name = "Draw-Custom-Shape-View";
-			path = "../../Draw-Custom-Shape-View";
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				DC0F7088BB7127AF677EDB3FBCFA355D /* Development Pods */,
+				7CBC7A1549BB449D909EB32E19A333A4 /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				92F23E63ED1A25E523491CD8BEAE05BE /* Products */,
 				F379F380F5F7A4F5C898976D65F68A12 /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		893834B9AB1821C11B7372AA699E6C10 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DFD92B9371BF0CFEBC2BF038A674DA21 /* Draw-Custom-Shape-View.modulemap */,
+				FB74133D3CC03F68CF06178FA9D3B210 /* Draw-Custom-Shape-View.xcconfig */,
+				0CF58621EA2EF396E99BBCB8260964A0 /* Draw-Custom-Shape-View-dummy.m */,
+				D5BE8692B7D5F034CE7175691DDD6505 /* Draw-Custom-Shape-View-prefix.pch */,
+				7591E976A2A447C19F752FF63C4B47A9 /* Draw-Custom-Shape-View-umbrella.h */,
+				AD4F04C7CB0ADB2573E3F5C3CC65CAB8 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../DrawCustomShapeView/Pods/Target Support Files/Draw-Custom-Shape-View";
 			sourceTree = "<group>";
 		};
 		92F23E63ED1A25E523491CD8BEAE05BE /* Products */ = {
@@ -158,14 +157,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		DC0F7088BB7127AF677EDB3FBCFA355D /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				7992AFD9CE5C162E0DDEC7D80CE59844 /* Draw-Custom-Shape-View */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
 		F379F380F5F7A4F5C898976D65F68A12 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -174,14 +165,26 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		F88B017D771D86DAE705132FE834FACF /* Draw-Custom-Shape-View */ = {
+			isa = PBXGroup;
+			children = (
+				BEF52734D7B63F8F6DA108CEE31467C6 /* Service.swift */,
+				4D0DD4B03216B4F927104B6EA1B66021 /* ShapView.swift */,
+				1C7902341A34BEB5C7EDCA97AC3CEC92 /* Pod */,
+				893834B9AB1821C11B7372AA699E6C10 /* Support Files */,
+			);
+			name = "Draw-Custom-Shape-View";
+			path = "../../Draw-Custom-Shape-View";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		90CAE53F04DDA61C4D0BC00F220258C4 /* Headers */ = {
+		4FE7DBA46EE4387E50BAE1C87DDD60AF /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0D35C45252513AAE0CD2046BD8139212 /* Draw-Custom-Shape-View-umbrella.h in Headers */,
+				1775CF483B22D0DF04645EADDF338F9A /* Draw-Custom-Shape-View-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -196,14 +199,14 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		48C80632035C7E4504493231D555A523 /* Draw-Custom-Shape-View */ = {
+		373F970E31BB68D5666F7529512FA4DC /* Draw-Custom-Shape-View */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0F1AD1DC02C1D65858404A0251F8A1C0 /* Build configuration list for PBXNativeTarget "Draw-Custom-Shape-View" */;
+			buildConfigurationList = 03C64C96751122A633877A12587CC348 /* Build configuration list for PBXNativeTarget "Draw-Custom-Shape-View" */;
 			buildPhases = (
-				90CAE53F04DDA61C4D0BC00F220258C4 /* Headers */,
-				8FDD90E28DA656428A9916CD24EAC61B /* Sources */,
-				78B22B1271DCBB3C1363DB48CCFA6ADC /* Frameworks */,
-				C293BD71738374DDF054BBAE62637D9E /* Resources */,
+				4FE7DBA46EE4387E50BAE1C87DDD60AF /* Headers */,
+				E72F5CE1B705D420556ADD64239E8BAA /* Sources */,
+				D420F0C8653707AB76CE6A5F96C319BB /* Frameworks */,
+				5BECFE35098DE59ECBC555D9E80DFA0F /* Resources */,
 			);
 			buildRules = (
 			);
@@ -254,14 +257,14 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				48C80632035C7E4504493231D555A523 /* Draw-Custom-Shape-View */,
+				373F970E31BB68D5666F7529512FA4DC /* Draw-Custom-Shape-View */,
 				FF6C507A1865368829D8A879BEBD3E0C /* Pods-DrawCustomShapeView */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		C293BD71738374DDF054BBAE62637D9E /* Resources */ = {
+		5BECFE35098DE59ECBC555D9E80DFA0F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -278,12 +281,13 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		8FDD90E28DA656428A9916CD24EAC61B /* Sources */ = {
+		E72F5CE1B705D420556ADD64239E8BAA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EA495D9A2AA8F918C16E28360A904FC0 /* Draw-Custom-Shape-View-dummy.m in Sources */,
-				E41AA365A68DF79D935F94D39C61C630 /* Service.swift in Sources */,
+				E8ADD4283B3502B80A83FF9087FB9E5E /* Draw-Custom-Shape-View-dummy.m in Sources */,
+				A16A25C5FAF1A34C509B02B8FEADEA18 /* Service.swift in Sources */,
+				BBDA25689976BAD24655495C97F13572 /* ShapView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,7 +305,7 @@
 		AF152E223B434281A87954A94B0841A8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Draw-Custom-Shape-View";
-			target = 48C80632035C7E4504493231D555A523 /* Draw-Custom-Shape-View */;
+			target = 373F970E31BB68D5666F7529512FA4DC /* Draw-Custom-Shape-View */;
 			targetProxy = C38495D6FA5368F30F74AE68B11961DA /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -450,9 +454,9 @@
 			};
 			name = Debug;
 		};
-		6B67BB331503CF64F79F72F6568282F0 /* Debug */ = {
+		2E021BE35D6296594DECF2F5FAB5AF53 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F343BFDB39EA42D81A135A8243D6C422 /* Draw-Custom-Shape-View.xcconfig */;
+			baseConfigurationReference = FB74133D3CC03F68CF06178FA9D3B210 /* Draw-Custom-Shape-View.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -481,10 +485,11 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 		8000995DA02063BF3777393CD52061DD /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -548,9 +553,9 @@
 			};
 			name = Release;
 		};
-		8082D111F83703B377D0A1597A4ED5A9 /* Release */ = {
+		AEBE5C6CB3353C5E9E9037E6A0B9EA2C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F343BFDB39EA42D81A135A8243D6C422 /* Draw-Custom-Shape-View.xcconfig */;
+			baseConfigurationReference = FB74133D3CC03F68CF06178FA9D3B210 /* Draw-Custom-Shape-View.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -579,20 +584,19 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0F1AD1DC02C1D65858404A0251F8A1C0 /* Build configuration list for PBXNativeTarget "Draw-Custom-Shape-View" */ = {
+		03C64C96751122A633877A12587CC348 /* Build configuration list for PBXNativeTarget "Draw-Custom-Shape-View" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6B67BB331503CF64F79F72F6568282F0 /* Debug */,
-				8082D111F83703B377D0A1597A4ED5A9 /* Release */,
+				AEBE5C6CB3353C5E9E9037E6A0B9EA2C /* Debug */,
+				2E021BE35D6296594DECF2F5FAB5AF53 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

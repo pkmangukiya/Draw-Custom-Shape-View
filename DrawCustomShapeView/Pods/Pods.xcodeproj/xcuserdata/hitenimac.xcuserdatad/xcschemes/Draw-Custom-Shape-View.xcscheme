@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "48C80632035C7E4504493231D555A523"
+               BlueprintIdentifier = "373F970E31BB68D5666F7529512FA4DC"
                BuildableName = "Draw_Custom_Shape_View.framework"
                BlueprintName = "Draw-Custom-Shape-View"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -45,7 +45,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "48C80632035C7E4504493231D555A523"
+            BlueprintIdentifier = "373F970E31BB68D5666F7529512FA4DC"
             BuildableName = "Draw_Custom_Shape_View.framework"
             BlueprintName = "Draw-Custom-Shape-View"
             ReferencedContainer = "container:Pods.xcodeproj">

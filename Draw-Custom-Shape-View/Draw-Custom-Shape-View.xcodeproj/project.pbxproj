@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		894F91CB21DB788B007B3A4A /* Draw_Custom_Shape_View.h in Headers */ = {isa = PBXBuildFile; fileRef = 894F91C921DB788B007B3A4A /* Draw_Custom_Shape_View.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		894F91D221DB79A7007B3A4A /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 894F91D121DB79A7007B3A4A /* Service.swift */; };
+		89F1983F21DC800F00DF7377 /* ShapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89F1983E21DC800F00DF7377 /* ShapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -16,6 +17,7 @@
 		894F91C921DB788B007B3A4A /* Draw_Custom_Shape_View.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Draw_Custom_Shape_View.h; sourceTree = "<group>"; };
 		894F91CA21DB788B007B3A4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		894F91D121DB79A7007B3A4A /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		89F1983E21DC800F00DF7377 /* ShapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 				894F91C921DB788B007B3A4A /* Draw_Custom_Shape_View.h */,
 				894F91CA21DB788B007B3A4A /* Info.plist */,
 				894F91D121DB79A7007B3A4A /* Service.swift */,
+				89F1983E21DC800F00DF7377 /* ShapView.swift */,
 			);
 			path = "Draw-Custom-Shape-View";
 			sourceTree = "<group>";
@@ -134,6 +137,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89F1983F21DC800F00DF7377 /* ShapView.swift in Sources */,
 				894F91D221DB79A7007B3A4A /* Service.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
