@@ -1,0 +1,6 @@
+framework module Pods_DrawCustomShapeView {
+  umbrella header "Pods-DrawCustomShapeView-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module Draw_Custom_Shape_View {
+  umbrella header "Draw-Custom-Shape-View-umbrella.h"
+
+  export *
+  module * { export * }
+}

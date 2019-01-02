@@ -1,0 +1,16 @@
+PODS:
+  - Draw-Custom-Shape-View (1.0.0)
+
+DEPENDENCIES:
+  - Draw-Custom-Shape-View (from `../Draw-Custom-Shape-View/`)
+
+EXTERNAL SOURCES:
+  Draw-Custom-Shape-View:
+    :path: "../Draw-Custom-Shape-View/"
+
+SPEC CHECKSUMS:
+  Draw-Custom-Shape-View: 28e59c52bfe8c50d597a389fd4a11ee7468fb96e
+
+PODFILE CHECKSUM: 982a89cf65e1f122fbff2d2929a5678f5d9bd002
+
+COCOAPODS: 1.5.3
